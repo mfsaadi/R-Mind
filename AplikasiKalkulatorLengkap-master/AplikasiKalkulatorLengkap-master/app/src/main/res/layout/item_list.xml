@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardBackgroundColor="#272727"
+    app:cardCornerRadius="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#272727"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:id="@+id/textview_line1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Line 1"
+            android:textColor="#b5b5b5"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textview_operasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/textview_line1"
+            android:text="Opr"
+            android:textColor="#b5b5b5"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textview_line2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/textview_operasi"
+            android:text="Line2"
+            android:textColor="#b5b5b5"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textview_samadengan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/textview_line2"
+            android:text="="
+            android:textColor="#b5b5b5"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/textview_hasil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/textview_samadengan"
+            android:text="TextView"
+            android:textColor="#b5b5b5"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
